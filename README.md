@@ -38,8 +38,7 @@ I'm building a 20-chapter bootcamp that takes you from blinking an LED to shippi
 
 ### 📺 Latest from the channel
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [Arduino Programming Basics for Beginners | ESP32 Tutorial | Full-Stack IoT Bootcamp Ep.7](https://www.youtube.com/watch?v=X262IJjHf6I) <!-- May 17, 2026 -->- [If you can&#39;t stand the heat, stay out of the hardware #iot #gateway](https://www.youtube.com/shorts/zwtiBBxqL7Q) <!-- May 14, 2026 -->- [ESP32 Setup for Beginners  Arduino IDE, Blink &amp; Serial Monitor  IoT Bootcamp #6](https://www.youtube.com/watch?v=ljoaH18HQ2k) <!-- May 8, 2026 -->- [Build a Real-Time IoT Air Quality Monitor | ESP32, MQTT, Python Flask &amp; MySQL](https://www.youtube.com/watch?v=Cbym0m19-7M) <!-- May 3, 2026 -->- [Basic Electronics for IoT | Ohm&#39;s Law, 3.3V vs 5V, Multimeter &amp; More | IoT Bootcamp Ep 5](https://www.youtube.com/watch?v=WUtSMjuOUKg) <!-- Apr 30, 2026 --><!-- BLOG-POST-LIST:END -->
 
 ➡️ [More videos on YouTube](https://www.youtube.com/@iotbhai/videos)
 
