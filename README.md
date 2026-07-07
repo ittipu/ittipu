@@ -44,9 +44,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 
 ### 📺 Latest from the channel
 
-<p align="center">
-<!-- BLOG-POST-LIST:START --><a href="https://www.youtube.com/watch?v=BmGay72O710"><img src="$imageLink" width="220" alt="LilyGo T-Call A7670 vs SIM800L — Upgrade to 4G LTE on ESP..."><br><sub><b>LilyGo T-Call A7670 vs SIM800L — Upgrade to 4G LTE on ESP...</b></sub></a><a href="https://www.youtube.com/watch?v=X262IJjHf6I"><img src="$imageLink" width="220" alt="Arduino Programming Basics for Beginners | ESP32 Tutorial..."><br><sub><b>Arduino Programming Basics for Beginners | ESP32 Tutorial...</b></sub></a><a href="https://www.youtube.com/shorts/zwtiBBxqL7Q"><img src="$imageLink" width="220" alt="If you can&#39;t stand the heat, stay out of the hardware #io..."><br><sub><b>If you can&#39;t stand the heat, stay out of the hardware #io...</b></sub></a><a href="https://www.youtube.com/watch?v=ljoaH18HQ2k"><img src="$imageLink" width="220" alt="ESP32 Setup for Beginners  Arduino IDE, Blink &amp; Serial Mo..."><br><sub><b>ESP32 Setup for Beginners  Arduino IDE, Blink &amp; Serial Mo...</b></sub></a><a href="https://www.youtube.com/watch?v=Cbym0m19-7M"><img src="$imageLink" width="220" alt="Build a Real-Time IoT Air Quality Monitor | ESP32, MQTT, ..."><br><sub><b>Build a Real-Time IoT Air Quality Monitor | ESP32, MQTT, ...</b></sub></a><a href="https://www.youtube.com/watch?v=WUtSMjuOUKg"><img src="$imageLink" width="220" alt="Basic Electronics for IoT | Ohm&#39;s Law, 3.3V vs 5V, Multim..."><br><sub><b>Basic Electronics for IoT | Ohm&#39;s Law, 3.3V vs 5V, Multim...</b></sub></a><!-- BLOG-POST-LIST:END -->
-</p>
+<table align="center">
+  <tr>
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://www.youtube.com/@iotbhai/videos"><b>➡️ More videos on YouTube</b></a>
