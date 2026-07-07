@@ -15,6 +15,6 @@ jobs:
         with:
           comment_tag_name: BLOG-POST-LIST
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCK14FxPR0eZFadp0e7B0M9A"
-          max_post_count: 6
-          template: "<a href=\"$url\"><img src=\"$imageLink\" width=\"220\" alt=\"$title\"><br><sub><b>$title</b></sub></a>"
-          item_exec: "post.title = post.title.length > 60 ? post.title.slice(0, 57) + '...' : post.title;"
+          max_post_count: 3
+          template: "<td align=\"center\" width=\"33%\"><a href=\"$url\"><img src=\"$imageLink\" width=\"260\"><br><sub><b>$title</b></sub></a></td>"
+          item_exec: "const m = post.url.match(/(?:v=|shorts\\/)([^&\\s]+)/); if (m) post.imageLink = 'https://img.youtube.com/vi/' + m[1] + '/hqdefault.jpg'; post.title = post.title.length > 55 ? post.title.slice(0, 52) + '...' : post.title;"
