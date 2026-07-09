@@ -46,7 +46,7 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 
 <table align="center">
   <tr>
-<!-- BLOG-POST-LIST:START --><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=BmGay72O710"><img src="$imageLink" width="260"><br><sub><b>LilyGo T-Call A7670 vs SIM800L — Upgrade to 4G LTE o...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=X262IJjHf6I"><img src="$imageLink" width="260"><br><sub><b>Arduino Programming Basics for Beginners | ESP32 Tut...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/shorts/zwtiBBxqL7Q"><img src="$imageLink" width="260"><br><sub><b>If you can&#39;t stand the heat, stay out of the hardwar...</b></sub></a></td><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=vrCNs3y4ddQ"><img src="$imageLink" width="260"><br><sub><b>ESP32 digitalRead, Pull-Up Resistors &amp; Debounce | Fu...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=BmGay72O710"><img src="$imageLink" width="260"><br><sub><b>LilyGo T-Call A7670 vs SIM800L — Upgrade to 4G LTE o...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=X262IJjHf6I"><img src="$imageLink" width="260"><br><sub><b>Arduino Programming Basics for Beginners | ESP32 Tut...</b></sub></a></td><!-- BLOG-POST-LIST:END -->
   </tr>
 </table>
 
