@@ -46,7 +46,7 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 
 <table align="center">
   <tr>
-<!-- BLOG-POST-LIST:START --><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=JGoz1bwewaM"><img src="$imageLink" width="260"><br><sub><b>LilyGo A7670 Built-in GPS Setup | Reading Coordinate...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=JlksvK4J10Q"><img src="$imageLink" width="260"><br><sub><b>How to send &amp; receive SMS using LilyGo T-call A7670 ...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/shorts/ueSAAjw0nx4"><img src="$imageLink" width="260"><br><sub><b>Getting Started With LilyGo T-Call A7670E</b></sub></a></td><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><td align="center" width="33%"><a href="https://www.youtube.com/shorts/mj5NBZEQ2HY"><img src="$imageLink" width="260"><br><sub><b>ESP32 + 1.54&#39;&#39; E-Paper Display Demo #esp32 #epaper</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=JGoz1bwewaM"><img src="$imageLink" width="260"><br><sub><b>LilyGo A7670 Built-in GPS Setup | Reading Coordinate...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=JlksvK4J10Q"><img src="$imageLink" width="260"><br><sub><b>How to send &amp; receive SMS using LilyGo T-call A7670 ...</b></sub></a></td><!-- BLOG-POST-LIST:END -->
   </tr>
 </table>
 
