@@ -46,7 +46,7 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 
 <table align="center">
   <tr>
-<!-- BLOG-POST-LIST:START --><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=XW3-QCTVcXE"><img src="$imageLink" width="260"><br><sub><b>Build Your Own LoRa IoT Dashboard | ESP32 + RYLR993 ...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=EQfj9KQuKug"><img src="$imageLink" width="260"><br><sub><b>DHT22 vs SHTC3 on ESP32 The Sensor Upgrade Nobody Ta...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/shorts/mj5NBZEQ2HY"><img src="$imageLink" width="260"><br><sub><b>ESP32 + 1.54&#39;&#39; E-Paper Display Demo #esp32 #epaper</b></sub></a></td><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START --><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=XW3-QCTVcXE"><img src="https://img.youtube.com/vi/XW3-QCTVcXE/hqdefault.jpg" width="260"><br><sub><b>Build Your Own LoRa IoT Dashboard | ESP32 + RYLR993 + M...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/watch?v=EQfj9KQuKug"><img src="https://img.youtube.com/vi/EQfj9KQuKug/hqdefault.jpg" width="260"><br><sub><b>DHT22 vs SHTC3 on ESP32 The Sensor Upgrade Nobody Talks...</b></sub></a></td><td align="center" width="33%"><a href="https://www.youtube.com/shorts/mj5NBZEQ2HY"><img src="https://img.youtube.com/vi/mj5NBZEQ2HY/hqdefault.jpg" width="260"><br><sub><b>ESP32 + 1.54&#39;&#39; E-Paper Display Demo #esp32 #epaper</b></sub></a></td><!-- BLOG-POST-LIST:END -->
   </tr>
 </table>
 
