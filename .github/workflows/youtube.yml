@@ -20,19 +20,9 @@ jobs:
           comment_tag_name: BLOG-POST-LIST
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCK14FxPR0eZFadp0e7B0M9A"
           max_post_count: 3
+
+          custom_tags: "videoId/yt:videoId/"
+
           title_max_length: 55
 
-          item_exec: >-
-            const m = post.url.match(/(?:v=|shorts\/)([A-Za-z0-9_-]{11})/);
-            if (m) {
-              post.imageLink = 'https://img.youtube.com/vi/' + m[1] + '/hqdefault.jpg';
-            }
-
-          template: >-
-            <td align="center" width="33%">
-            <a href="$url">
-            <img src="$imageLink" width="260">
-            <br>
-            <sub><b>$title</b></sub>
-            </a>
-            </td>
+          template: '<td align="center" width="33%"><a href="$url"><img src="https://img.youtube.com/vi/$videoId/hqdefault.jpg" width="260"><br><sub><b>$title</b></sub></a></td>'
