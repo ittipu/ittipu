@@ -13,16 +13,135 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          comment_tag_name: BLOG-POST-LIST
-          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCK14FxPR0eZFadp0e7B0M9A"
-          max_post_count: 3
+      - name: Fetch latest YouTube videos
+        id: youtube
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          import re
 
-          custom_tags: "videoId/yt:videoId/"
+          FEED_URL = "https://www.youtube.com/feeds/videos.xml?channel_id=UCK14FxPR0eZFadp0e7B0M9A"
 
-          title_max_length: 55
+          # YouTube RSS feed
+          data = urllib.request.urlopen(FEED_URL).read()
+          root = ET.fromstring(data)
 
-          template: '<td align="center" width="33%"><a href="$url"><img src="https://img.youtube.com/vi/$videoId/hqdefault.jpg" width="260"><br><sub><b>$title</b></sub></a></td>'
+          ns = {
+              "atom": "http://www.w3.org/2005/Atom",
+              "yt": "http://www.youtube.com/xml/schemas/2015"
+          }
+
+          videos = []
+
+          for entry in root.findall("atom:entry", ns):
+              video_id = entry.findtext("yt:videoId", "", ns)
+              title = entry.findtext("atom:title", "", ns)
+              published = entry.findtext("atom:published", "", ns)
+
+              link = entry.find("atom:link[@rel='alternate']", ns)
+
+              if link is None:
+                  continue
+
+              url = link.attrib.get("href", "")
+
+              # Ignore YouTube Shorts
+              if "/shorts/" in url.lower():
+                  continue
+
+              # Make sure we have a valid YouTube video ID
+              if not re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+                  continue
+
+              videos.append({
+                  "id": video_id,
+                  "title": title,
+                  "url": url,
+                  "published": published
+              })
+
+              # We only need the latest 3 normal videos
+              if len(videos) == 3:
+                  break
+
+          if len(videos) < 3:
+              print("Warning: fewer than 3 normal videos found.")
+
+          # Generate the HTML
+          output = ""
+
+          for video in videos:
+              title = video["title"]
+
+              if len(title) > 55:
+                  title = title[:52] + "..."
+
+              output += f'''<td align="center" width="33%">
+          <a href="{video["url"]}">
+          <img src="https://img.youtube.com/vi/{video["id"]}/hqdefault.jpg" width="260">
+          <br>
+          <sub><b>{title}</b></sub>
+          </a>
+          </td>'''
+
+          # Pass generated HTML to GitHub Actions
+          with open("/tmp/youtube_html.txt", "w", encoding="utf-8") as f:
+              f.write(output)
+
+          print(output)
+          PY
+
+      - name: Update README
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md")
+          content = readme.read_text(encoding="utf-8")
+
+          start_marker = "<!-- BLOG-POST-LIST:START -->"
+          end_marker = "<!-- BLOG-POST-LIST:END -->"
+
+          videos_html = Path("/tmp/youtube_html.txt").read_text(
+              encoding="utf-8"
+          ).strip()
+
+          start = content.find(start_marker)
+          end = content.find(end_marker)
+
+          if start == -1 or end == -1:
+              raise SystemExit(
+                  "Could not find BLOG-POST-LIST markers in README.md"
+              )
+
+          new_content = (
+              content[:start]
+              + start_marker
+              + videos_html
+              + end_marker
+              + content[end + len(end_marker):]
+          )
+
+          readme.write_text(new_content, encoding="utf-8")
+          PY
+
+      - name: Commit README changes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No README changes."
+          else
+            git commit -m "Update latest YouTube videos"
+            git push
+          fi
