@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=hwSJiY8Kzgw">
+<img src="https://img.youtube.com/vi/hwSJiY8Kzgw/hqdefault.jpg" width="260">
+<br>
+<sub><b>ESP32 CO₂ Monitor with SCD30 | WiFi + MQTT + Live Da...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=2wli2yJfxn4">
 <img src="https://img.youtube.com/vi/2wli2yJfxn4/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/XW3-QCTVcXE/hqdefault.jpg" width="260">
 <br>
 <sub><b>Build Your Own LoRa IoT Dashboard | ESP32 + RYLR993 ...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=EQfj9KQuKug">
-<img src="https://img.youtube.com/vi/EQfj9KQuKug/hqdefault.jpg" width="260">
-<br>
-<sub><b>DHT22 vs SHTC3 on ESP32 The Sensor Upgrade Nobody Ta...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
