@@ -50,7 +50,7 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <a href="https://www.youtube.com/watch?v=hwSJiY8Kzgw">
 <img src="https://img.youtube.com/vi/hwSJiY8Kzgw/hqdefault.jpg" width="260">
 <br>
-<sub><b>ESP32 CO₂ Monitor with SCD30 | WiFi + MQTT + Live Da...</b></sub>
+<sub><b>ESP32 & SCD30 CO2 Air Quality Monitor | WiFi + MQTT ...</b></sub>
 </a>
 </td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=2wli2yJfxn4">
