@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=rwLtN0BxeLU">
+<img src="https://img.youtube.com/vi/rwLtN0BxeLU/hqdefault.jpg" width="260">
+<br>
+<sub><b>ESP32 PWM & ADC — The Analog World  Full Stack IoT B...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=hwSJiY8Kzgw">
 <img src="https://img.youtube.com/vi/hwSJiY8Kzgw/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/2wli2yJfxn4/hqdefault.jpg" width="260">
 <br>
 <sub><b>How to Read Schneider PM2100 Meter Data using ESP32 ...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=XW3-QCTVcXE">
-<img src="https://img.youtube.com/vi/XW3-QCTVcXE/hqdefault.jpg" width="260">
-<br>
-<sub><b>Build Your Own LoRa IoT Dashboard | ESP32 + RYLR993 ...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
