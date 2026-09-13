@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=8kPFj-lq8GM">
+<img src="https://img.youtube.com/vi/8kPFj-lq8GM/hqdefault.jpg" width="260">
+<br>
+<sub><b>Stop Using delay() on ESP32! Learn millis(), Timers ...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=rwLtN0BxeLU">
 <img src="https://img.youtube.com/vi/rwLtN0BxeLU/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/hwSJiY8Kzgw/hqdefault.jpg" width="260">
 <br>
 <sub><b>ESP32 & SCD30 CO2 Air Quality Monitor | WiFi + MQTT ...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=2wli2yJfxn4">
-<img src="https://img.youtube.com/vi/2wli2yJfxn4/hqdefault.jpg" width="260">
-<br>
-<sub><b>How to Read Schneider PM2100 Meter Data using ESP32 ...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
