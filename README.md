@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=e49DcS0fUe8">
+<img src="https://img.youtube.com/vi/e49DcS0fUe8/hqdefault.jpg" width="260">
+<br>
+<sub><b>How to Use DHT22 & HC-SR04 Sensors with ESP32 (The R...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=ss3Qop2KxwE">
 <img src="https://img.youtube.com/vi/ss3Qop2KxwE/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/8kPFj-lq8GM/hqdefault.jpg" width="260">
 <br>
 <sub><b>Stop Using delay() on ESP32! Learn millis(), Timers ...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=rwLtN0BxeLU">
-<img src="https://img.youtube.com/vi/rwLtN0BxeLU/hqdefault.jpg" width="260">
-<br>
-<sub><b>ESP32 PWM & ADC — The Analog World  Full Stack IoT B...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
