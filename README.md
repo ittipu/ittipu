@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=mlLp1O39jTE">
+<img src="https://img.youtube.com/vi/mlLp1O39jTE/hqdefault.jpg" width="260">
+<br>
+<sub><b>Why Learn IoT & Robotics When AI Can Code? 10 Reason...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=MQ33fGwEMms">
 <img src="https://img.youtube.com/vi/MQ33fGwEMms/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/e49DcS0fUe8/hqdefault.jpg" width="260">
 <br>
 <sub><b>How to Use DHT22 & HC-SR04 Sensors with ESP32 (The R...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=ss3Qop2KxwE">
-<img src="https://img.youtube.com/vi/ss3Qop2KxwE/hqdefault.jpg" width="260">
-<br>
-<sub><b>2.4GHz vs 5GHz on the ESP32 C5 The Real Difference</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
