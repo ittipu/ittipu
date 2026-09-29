@@ -50,13 +50,13 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <a href="https://www.youtube.com/watch?v=mlLp1O39jTE">
 <img src="https://img.youtube.com/vi/mlLp1O39jTE/hqdefault.jpg" width="260">
 <br>
-<sub><b>Why Learn IoT & Robotics When AI Can Code? 10 Reason...</b></sub>
+<sub><b>Is AI Replacing Software Developers? Why You Should ...</b></sub>
 </a>
 </td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=MQ33fGwEMms">
 <img src="https://img.youtube.com/vi/MQ33fGwEMms/hqdefault.jpg" width="260">
 <br>
-<sub><b>ESP32 Analog Sensors: Liquid Level & MQ-2 Gas (Full ...</b></sub>
+<sub><b>Liquid Level & MQ-2 Gas Sensor with ESP32 | Analog S...</b></sub>
 </a>
 </td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=e49DcS0fUe8">
