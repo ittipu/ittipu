@@ -62,7 +62,7 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <a href="https://www.youtube.com/watch?v=MQ33fGwEMms">
 <img src="https://img.youtube.com/vi/MQ33fGwEMms/hqdefault.jpg" width="260">
 <br>
-<sub><b>Liquid Level & MQ-2 Gas Sensor with ESP32 | Analog S...</b></sub>
+<sub><b>MQ-2 Gas Sensor with ESP32 – Wiring & Code (+ Liquid...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
