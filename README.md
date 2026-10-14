@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=w8oa6H3WbNk">
+<img src="https://img.youtube.com/vi/w8oa6H3WbNk/hqdefault.jpg" width="260">
+<br>
+<sub><b>IoT Developer Roadmap 2026: From Beginner to Pro (Fu...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=ss0DSwqHI3o">
 <img src="https://img.youtube.com/vi/ss0DSwqHI3o/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/L5pBvX0efOs/hqdefault.jpg" width="260">
 <br>
 <sub><b>ESP32 Ethernet Speed Test over MQTT: PoE + W5500 on ...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=vFBDZzwCgrs">
-<img src="https://img.youtube.com/vi/vFBDZzwCgrs/hqdefault.jpg" width="260">
-<br>
-<sub><b>UWB Distance Meter with ESP32 & REYAX RYUW122 | Cent...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
