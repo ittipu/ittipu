@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=t4CAXQ98A7s">
+<img src="https://img.youtube.com/vi/t4CAXQ98A7s/hqdefault.jpg" width="260">
+<br>
+<sub><b>I Killed the WiFi and My Sensor Didn’t Care | XIAO E...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=w8oa6H3WbNk">
 <img src="https://img.youtube.com/vi/w8oa6H3WbNk/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/ss0DSwqHI3o/hqdefault.jpg" width="260">
 <br>
 <sub><b>ESP32 I2C Tutorial: OLED Display + I2C Scanner (Chap...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=L5pBvX0efOs">
-<img src="https://img.youtube.com/vi/L5pBvX0efOs/hqdefault.jpg" width="260">
-<br>
-<sub><b>ESP32 Ethernet Speed Test over MQTT: PoE + W5500 on ...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
