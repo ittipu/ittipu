@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=P1cG6zuEiBM">
+<img src="https://img.youtube.com/vi/P1cG6zuEiBM/hqdefault.jpg" width="260">
+<br>
+<sub><b>ESP32 Tutorial: What Is an Actuator? Relays, Motors ...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=WUTuhiaH4sY">
 <img src="https://img.youtube.com/vi/WUTuhiaH4sY/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/e9-1XVq4Htw/hqdefault.jpg" width="260">
 <br>
 <sub><b>ESP32 UART Tutorial: NEO-M8N GPS + NMEA Explained (C...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=3wZ1ylBme1s">
-<img src="https://img.youtube.com/vi/3wZ1ylBme1s/hqdefault.jpg" width="260">
-<br>
-<sub><b>ESP32 SPI Tutorial: E-Paper Display + Robot Eyes (Ch...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
