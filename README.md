@@ -47,6 +47,12 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <table align="center">
   <tr>
 <!-- BLOG-POST-LIST:START --><td align="center" width="33%">
+<a href="https://www.youtube.com/watch?v=CxwP3433lGU">
+<img src="https://img.youtube.com/vi/CxwP3433lGU/hqdefault.jpg" width="260">
+<br>
+<sub><b>ESP32 DC Motor Tutorial L298N Speed & Direction Chap...</b></sub>
+</a>
+</td><td align="center" width="33%">
 <a href="https://www.youtube.com/watch?v=wtQchVPb7JU">
 <img src="https://img.youtube.com/vi/wtQchVPb7JU/hqdefault.jpg" width="260">
 <br>
@@ -57,12 +63,6 @@ A 20-chapter series taking you from blinking an LED to shipping a connected indu
 <img src="https://img.youtube.com/vi/P1cG6zuEiBM/hqdefault.jpg" width="260">
 <br>
 <sub><b>ESP32 Tutorial: What Is an Actuator? Relays, Motors ...</b></sub>
-</a>
-</td><td align="center" width="33%">
-<a href="https://www.youtube.com/watch?v=WUTuhiaH4sY">
-<img src="https://img.youtube.com/vi/WUTuhiaH4sY/hqdefault.jpg" width="260">
-<br>
-<sub><b>ESP32 One-Wire Tutorial: DS18B20 Temperature Sensor ...</b></sub>
 </a>
 </td><!-- BLOG-POST-LIST:END -->
   </tr>
